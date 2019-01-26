@@ -1,6 +1,6 @@
 {
   "name": "@ekoeppen/grommet-sensor-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sensor visualization components based on Grommet v2",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ekoeppen/grommet-sensor-components/issues"
   },
-  "homepage": "https://github.com/ekoeppen/grommet-sensor-components#readme"
+  "homepage": "https://github.com/ekoeppen/grommet-sensor-components#readme",
+  "dependencies" : {
+    "grommet" : ">= 2.0.0"
+  }
 }
