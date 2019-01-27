@@ -1,6 +1,6 @@
 {
   "name": "@ekoeppen/grommet-sensor-components",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Sensor visualization components based on Grommet v2",
   "main": "build/index.js",
   "scripts": {
@@ -23,18 +23,19 @@
   },
   "homepage": "https://github.com/ekoeppen/grommet-sensor-components#readme",
   "dependencies": {
-    "grommet": ">= 2.0.0",
-    "moment": "^2.24.0",
     "webpack": "^4.29.0"
   },
   "babel": {
     "presets": [
-      "@babel/preset-env",
+      ["@babel/preset-env", {"targets": {"esmodules": true}}],
       "@babel/preset-react"
     ]
   },
   "peerDependencies": {
-    "react": "^16.4.0"
+    "react": "^16.4.0",
+    "react-dom": "^16.7.0",
+    "grommet": "^2.3.1",
+    "moment": "^2.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

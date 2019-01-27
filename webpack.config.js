@@ -21,6 +21,9 @@ module.exports = {
     ]
   },
   externals: {
-    'react': 'commonjs react'
+    'react': 'commonjs react',
+    'react-dom': 'react-dom',
+    'grommet': 'grommet',
+    'moment': 'moment'
   }
 };
